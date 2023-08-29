@@ -1,0 +1,85 @@
+* { 
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+ }   /* sempre adicionar no inicio dos códigos em CSS*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* altura / vh = altura */
+    width: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior{
+    background-color: #000000; /* troca cor do plano de fundo */
+    width: 100%; /* largura */
+    max-width: 530px; /* largura máxima */
+    opacity: 0.8; /*transparencia do item vai até 1*/
+    padding: 35px;
+    border-radius: 30px;
+}
+input{
+    border:none; /*sem borda*/
+    background-color: #7c7c7c2b;
+    border-radius: none; /* borda do elemento */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 25px; /* arredonda as bordas */
+    font-size: 20px;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+.lupa{
+    height: 20px;
+}
+
+.caixa-media{
+    color: #ffffff;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp {
+    color:#ffffff;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.descricao{
+    color: #ffffff;
+    margin: 10px;
+    justify-content: center;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+}
+
+.umidade{
+    color: #ffffff;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+
